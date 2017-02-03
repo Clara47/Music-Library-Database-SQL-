@@ -1,0 +1,113 @@
+create table BAND(
+BandID integer,
+BandName char(100), 
+NumberOfMembers integer,
+Genre char(100),
+LyricalThemes char(100), 
+Country char(100), 
+CONSTRAINT BAND_PK PRIMARY KEY(BandID)
+);
+
+ create table BAND_ALBUM(
+BandID int,
+AlbumID int, 
+PRIMARY KEY(BandID, AlbumID),
+CONSTRAINT BAND_RELATIONSHIP2 FOREIGN KEY(BandID)
+References BAND (BandID),
+CONSTRAINT ALBUM_RELATIONSHIP2 FOREIGN KEY(AlbumID)
+References ALBUM (AlbumID)
+);
+
+
+create table ALBUM (
+AlbumID int,
+AlbumName char(100), 
+BandName char (100),
+BandID int,
+CONSTRAINT Band_Album FOREIGN KEY(BandID)
+REFERENCES BAND(BandID),
+NumberOfSongs int,
+Genre char(100), 
+CONSTRAINT ALBUM_PK PRIMARY KEY(AlbumID, BandID)
+);
+create table BAND_ARTIST(
+CONSTRAINT BAND_RELATIONSHIP2 FOREIGN KEY(BandID)
+References BAND (BandID),
+CONSTRAINT ARTIST_RELATIONSHIP2 FOREIGN KEY(ArtistID)
+References INDIVIDUAL_ARTIST (ArtistID)
+);
+
+create table INDIVIDUAL_ARTIST (
+ArtistID integer,
+Last_Name char(100),
+First_Name char (100),
+Stage_Name char (100), 
+BandID int, 
+CONSTRAINT INDIVIDUAL_ARTIST_STUFF FOREIGN KEY(BandID)
+References BAND (BandID),
+Role char(40),
+CONSTRAINT INDIVIDUAL_ARTIST_PK PRIMARY KEY(ArtistID, BandID)
+);
+
+create table ALBUM_SONGS(
+ SongID int,
+  AlbumID int,
+PRIMARY KEY (SongID, AlbumID),
+CONSTRAINT SONG_RELATIONSHIP3 FOREIGN KEY(SongID)
+REFERENCES SONGS (SongID),
+CONSTRAINT ALBUM_RELATIONSHIP3 FOREIGN KEY(AlbumID)
+REFERENCES ALBUM (AlbumID)
+);
+
+create table SONGS (
+SongID integer,
+SongName char(100),
+AlbumID int,
+CONSTRAINT SONG_RELATIONSHIP FOREIGN KEY(AlbumID)
+References ALBUM (AlbumID),
+AlbumName char(100),
+BandID int,
+CONSTRAINT BAND_RELATIONSHIP FOREIGN KEY(BandID)
+References BAND (BandID),
+BandName char(100),
+Lyrical_Themes char(30), 
+GuestArtists char(40),
+CONSTRAINT SONGS_NEW_PK PRIMARY KEY(SongID, AlbumID) 
+);
+
+
+create procedure add_album (AlbumID int, AlbumName char(100), BandName char(100), BandID int, NumberOfSongs int, Genre char(100)) 
+BEGIN
+INSERT INTO ARTIST (AlbumID, AlbumName, BandName, BandID, NumberOfSongs, Genre) VALUES(
+ AlbumID, AlbumName, BandName, BandID, NumberOfSongs, Genre);  
+END
+
+create procedure add_songs (SongID int, SongName char(100), AlbumID int, AlbumName char(100), BandID int, BandName char(100), Lyrical_Themes char(100), GuestArtistschar(100)) 
+BEGIN
+INSERT INTO ARTIST (SongID, SongName, AlbumID, AlbumName, BandID, BandName, Lyrical_Themes, GuestArtists) VALUES(
+ SongID, SongName, AlbumID, AlbumName, BandID, BandName, Lyrical_Themes, GuestArtists);  
+END
+
+create procedure GetSong (Keyword CHAR (100))
+  BEGIN
+  select SongName, AlbumName, BandName, Lyrical_Themes, GuestArtists
+  from SONGS
+  where BandName like concat("%",Keyword,"%")
+or  AlbumName like concat("%",Keyword,"%")
+or  SongName like concat("%",Keyword,"%");
+  
+  END;
+
+
+
+create procedure GetBandMember(Keyword CHAR (100))
+  BEGIN
+  select First_Name, Last_Name, Stage_Name, Role, ii.BandName
+  from INDIVIDUAL_ARTIST i
+  join BAND ii
+  on i.BandID = ii.BandID
+  where First_Name like concat("%",Keyword,"%")
+  or Last_Name like concat("%",Keyword,"%")
+;
+  
+  END;

@@ -1,0 +1,629 @@
+INSERT INTO BAND 
+ VALUES(1, “Type O Negative”, 4, “Gothic Metal”, “Depression, Death, Relationships, Love, Dark Humor,”,”United States”); 
+INSERT INTO BAND
+VALUES(2, "Dark Tranquility", 4, "Melodic Death Metal", "Death, Memories, Chaos Theory","Sweden");
+
+INSERT INTO BAND
+VALUES (3, "Eluveitie", 7, "Folk/Melodic Death Metal", "Celtic/Helvetian history, Battles", "Switzerland");
+INSERT INTO BAND
+VALUES (4, "Opeth", 5, "Progressive Death Metal", "Nature, Death, Heartbreak, Occultism","Sweden");
+
+INSERT INTO BAND
+VALUES(5, "Blind Guardian", 4, "Power Metal", "Legends, Tolkien, Literature", "Germany");
+
+INSERT INTO BAND
+VALUES(6, "Amon Amarth", 4,"Melodic Death Metal", "Vikings, Norse Mythology", "Sweden");
+
+INSERT INTO BAND
+VALUES(7, "Sisters of Mercy", 3,"Goth", "The Mind, Darkness, Love","England");
+VALUES(8,"Fields of the Nephilim",4, "Goth","Occultism, HP Lovecraft, Sumerian religion","England"); 
+
+INSERT INTO BAND
+VALUES(9, "Falconer",5,"Folk/Power Metal", "Introspection, Fantasy, History, Human Behavior","Sweden");
+
+INSERT INTO ALBUM VALUES (
+  1, "October Rust", "Type O Negative", 1, 15,"Gothic Metal");
+
+INSERT INTO ALBUM VALUES (
+  2, "Fiction", "Dark Tranquility", 2, 10, "Melodic Death Metal");
+
+INSERT INTO ALBUM VALUES (
+  10, "Construct", "Dark Tranquility", 2, 10, "Melodic Death Metal");
+INSERT INTO ALBUM VALUES (
+  3, "Slania", "Eluveitie", 3, 13, "Celtic Death Metal");
+
+INSERT INTO ALBUM VALUES (
+  4, "Ghost Reveries", "Opeth", 4, 8, "Progressive Death Metal");
+
+INSERT INTO ALBUM VALUES (
+  5, "Nightfall in Middle Earth", "Blind Guardian", 5, 22, "Power Metal");
+INSERT INTO ALBUM VALUES (
+  6, "With Oden On Our Side", "Amon Amarth", 6, 9, "Melodic Death Metal");
+
+INSERT INTO ALBUM VALUES (
+  7, "First, Last, and Always", "Sisters of Mercy", 7, 10, "Goth");
+
+INSERT INTO ALBUM VALUES (
+  8, "Elizium", "Fields of the Nephilim", 8, 8, "Goth");
+
+INSERT INTO ALBUM VALUES ( 
+  9, "Among Beggars and Thieves", "Falconer", 9, 11, "Folk Metal"); 
+
+
+INSERT INTO SONGS VALUES (
+  11, "Bad Ground", 1, "October Rust", 1, "Type O Negative", NULL, NULL);
+INSERT INTO SONGS VALUES (
+  12, "-",1,"October Rust", 1, "Type O Negative", NULL, NULL);
+INSERT INTO SONGS VALUES (
+  13, "Love You To Death", 1, "October Rust", 1,"Type O Negative", "Love, Longing, Death", NULL); 
+INSERT INTO SONGS VALUES (
+  14, "Be My Druidess", 1, "October Rust", 1,"Type O Negative", "Love, Occultism", NULL);
+INSERT INTO SONGS VALUES (
+  15, "Green Man", 1, "October Rust", 1,"Type O Negative", "Nature, Seasons, Occultism", NULL);
+INSERT INTO SONGS VALUES (
+  16, "Red Water (Christmas Mourning)", 1, "October Rust", 1, "Type O Negative", "Christmas, Death", NULL);
+INSERT INTO SONGS VALUES ( 
+  17, "My Girlfriend's Girlfriend", 1, "October Rust", 1, "Type O Negative", "Polyamorous Relationships", NULL);
+INSERT INTO SONGS VALUES ( 
+  18, "Die With Me", 1, "October Rust", 1, "Type O Negative", "Heartbreak, Death", NULL);
+INSERT INTO SONGS VALUES ( 
+  19, "Burnt Flowers Fallen", 1, "October Rust", 1, "Type O Negative", "Heartbreak", NULL); 
+INSERT INTO SONGS VALUES(
+  20, "In Praise of Bacchus", 1, "October Rust", 1, "Type O Negative", "Mythology, Heartbreak", NULL);
+INSERT INTO SONGS VALUES(
+  21, "Cinnamon Girl(Neil Young Cover)", 1, "October Rust", 1, "Type O Negative", "Love", NULL);
+INSERT INTO SONGS VALUES(
+  22, "The Glorious Liberation of the People's Technocratic Republic of Vinnland", 1, "October Rust", 1, "Type O Negative", NULL, NULL);
+INSERT INTO SONGS VALUES(
+  23, "Wolf Moon", 1, "October Rust", 1, "Type O Negative", "Love, Lycanthropy, Occultism", NULL);
+INSERT INTO SONGS VALUES(
+  24, "Haunted", 1, "October Rust", 1, "Type O Negative", "Vampirism, Haunting", NULL);
+INSERT INTO SONGS VALUES(
+  25, "-", 1, "October Rust", 1, "Type O Negative", NULL, NULL);
+
+INSERT INTO SONGS VALUES (
+  1, "Nothing to No One", 2, "Fiction", 2, "Dark Tranquility", "Rebellion, Sacrifice", NULL);
+INSERT INTO SONGS VALUES ( 
+  2, "The Lesser Faith", 2, "Fiction", 2, "Dark Tranquility", "Dreams, Weak Faith", NULL);
+INSERT INTO SONGS VALUES (
+  3, "Terminus (Where Death is Most Alive)", 2, "Fiction", 2, "Dark Tranquility", "Death, Destruction, Hopelessness", NULL);
+INSERT INTO SONGS VALUES(
+  4, "Blind at Heart", 2, "Fiction", 2, "Dark Tranquility", "Anger, Fire, Blindness", NULL);
+INSERT INTO SONGS VALUES(
+  5, "Icipher", 2, "Fiction", 2, "Dark Tranquility", "Fear", NULL);
+INSERT INTO SONGS VALUES(
+  6, "Inside the Particle Storm", 2, "Fiction", 2, "Dark Tranquility", "Cleansing destruction", NULL);
+INSERT INTO SONGS VALUES(
+  7, "Empty Me", 2, "Fiction", 2, "Dark Tranquility", "Forgiveness, Apathy, Emptiness", NULL);
+INSERT INTO SONGS VALUES(
+  8, "Misery's Crown", 2, "Fiction", 2, "Dark Tranquility", "Misery, Hopelessness, Betrayal", NULL);
+INSERT INTO SONGS VALUES(
+  9,  "Focus Shift", 2, "Fiction", 2, "Dark Tranquility", "Forgetfullness, Lostness", NULL);
+INSERT INTO SONGS VALUES(
+  10, "The Mundane and the Magic", 2, "Fiction", 2, "Dark Tranquility", "Seeing Beyond Reality, Merging Reality and Arcane, Fiction", NULL); 
+
+INSERT INTO SONGS VALUES(
+  26, "For Broken Words", 10, "Construct", 2, "Dark Tranquility", "Sacrifice, Brokeness", NULL);
+INSERT INTO SONGS VALUES(
+  27, "The Science of Noise", 10, "Construct", 2, "Dark Tranquility","Dreaming, Willpower, Mind Power", NULL);
+INSERT INTO SONGS VALUES(
+  28, "Uniformity", 10, "Construct", 2, "Dark Tranquility", "Dystopian Uniformity, Totalitarian Reality", NULL);
+INSERT INTO SONGS VALUES(
+  29, "The Silence in Between", 10, "Construct", 2, "Dark Tranquility","Silence, Crumbling Consciousness", NULL);
+INSERT INTO SONGS VALUES(
+  30, "Apathetic", 10, "Construct", 2, "Dark Tranquility", "Apathy, Seclusion", NULL);
+INSERT INTO SONGS VALUES(
+  31, "What Only You Know", 10, "Construct", 2, "Dark Tranquility", "Pain, Silence", NULL);
+INSERT INTO SONGS VALUES( 
+  32, "Endtime Hearts", 10, "Construct", 2, "Dark Tranquility", "Burning, Destruction, Dishonesty, Altered Perception", NULL);
+INSERT INTO SONGS VALUES(
+  33, "State of Trust", 10, "Construct", 2, "Dark Tranquility", "Mind, Pain, Mistrust", NULL);
+INSERT INTO SONGS VALUES(
+  34, "Weight of the End", 10, "Construct", 2, "Dark Tranquility", "Unknowing, Overwhelmingness", NULL); 
+INSERT INTO SONGS VALUES(
+  35, "None Becoming", 10, "Construct", 2, "Dark Tranquility", "Brokenness, Forgottenness", NULL);
+
+
+INSERT INTO SONGS VALUES(
+  36, "Samon", 3, "Slania", 3, "Eluveitie", NULL, NULL);
+INSERT INTO SONGS VALUES(
+  37, "Primordial Breath",  3, "Slania", 3, "Eluveitie", "Wind, Dreams, Guide Introduction", NULL);
+INSERT INTO SONGS VALUES( 
+  38, "Inis Mona",  3, "Slania", 3, "Eluveitie", "Druid Island of Inis Mona", NULL); 
+INSERT INTO SONGS VALUES(
+  39, "Gray Sublime Archon", 3, "Slania", 3, "Eluveitie", "Caesar Demands Celtic Hostages", NULL);
+INSERT INTO SONGS VALUES(
+  40, "Anagantios", 3, "Slania", 3, "Eluveitie", NULL, NULL);
+INSERT INTO SONGS VALUES( 
+  41, "Bloodstained Ground", 3, "Slania", 3, "Eluveitie", "War, Battlefield Remains", NULL);
+INSERT INTO SONGS VALUES(
+  42, "The Somber Lay", 3, "Slania", 3, "Eluveitie", "Druidic Ritual", NULL);
+INSERT INTO SONGS VALUES( 
+  43, "Slania's Song", 3, "Slania", 3, "Eluveitie", "Slania Sings of Helvetian Glory Days", NULL); 
+INSERT INTO SONGS VALUES(
+  44, "Giamonios", 3, "Slania", 3, "Eluveitie", NULL, NULL);
+INSERT INTO SONGS VALUES(
+  45, "Tarvos", 3, "Slania", 3, "Eluveitie", "Arcane Deity Tarvos, The Earth", NULL);
+INSERT INTO SONGS VALUES(
+  46, "Calling the Rain", 3, "Slania", 3, "Eluveitie", "Doom, Wishing for Destruction", NULL);
+INSERT INTO SONGS VALUES(
+  47, "Elembivos", 3, "Slania", 3, "Eluveitie", "Life, Nature, Moon, Beings", NULL);
+INSERT INTO SONGS VALUES(
+  48, "Samon (Acoustic)", 3, "Slania", 3, "Eluveitie", NULL, NULL); 
+
+INSERT INTO SONGS VALUES(
+  49, "Ghost of Perdition", 4, "Ghost Reveries", 4, "Opeth", "Ghosts, Demonic Activity, Posession", NULL);
+INSERT INTO SONGS VALUES(
+  50, "The Baying of the Hounds", 4, "Ghost Reveries", 4, "Opeth", "The Devil, Posession", NULL);
+INSERT INTO SONGS VALUES(
+  51, "Beneath the Mire", 4, "Ghost Reveries", 4, "Opeth", "Decay, Trapped Soul", NULL);
+INSERT INTO SONGS VALUES(
+  52, "Atonement", 4, "Ghost Reveries", 4, "Opeth", "Becoming, Clear Conscience, Trapped", NULL);
+INSERT INTO SONGS VALUES(
+  53, "Reverie/ Harlequin Forest", 4, "Ghost Reveries", 4, "Opeth", "Seeking Redemption in the Woods, Running from Devil", NULL);
+INSERT INTO SONGS VALUES(
+  54, "Hours of Wealth", 4, "Ghost Reveries", 4, "Opeth", "Resting, Contemplating, Far Away", NULL);
+INSERT INTO SONGS VALUES(
+  55, "The Grand Conjuration", 4, "Ghost Reveries", 4, "Opeth", "Given in to the Devil, In Hell", NULL);
+INSERT INTO SONGS VALUES(
+  56, "Isolation Years", 4, "Ghost Reveries", 4, "Opeth", "Love, Loneliness, Isolation", NULL);
+
+
+INSERT INTO SONGS VALUES(
+  57, "War of Wrath", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "Battle is Lost, King Sends Servant Away", NULL);
+INSERT INTO SONGS VALUES(
+  58, "Into the Storm", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "Morgoth Desiring Silmarils", NULL);
+INSERT INTO SONGS VALUES(
+  59, "Lammoth", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", NULL, NULL);
+INSERT INTO SONGS VALUES(
+  60, "Nightfall", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "Death of Two Trees, Darkness in Valinor", NULL);
+INSERT INTO SONGS VALUES(
+  61, "The Minstrel", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "Bardic Narration", NULL);
+INSERT INTO SONGS VALUES(
+  62, "The Curse of Feanor", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "Feanor Wishes Revenge on Morgoth", NULL);
+INSERT INTO SONGS VALUES(
+  63, "Captured", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "You are now my guest forever...", NULL);
+INSERT INTO SONGS VALUES(
+  64, "Blood Tears", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "Fingon Rescues Maedros From Morgoth", NULL);
+INSERT INTO SONGS VALUES(
+  65, "Mirror Mirror", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "Ulmo Shows Turgon Where to Build Gondolin", NULL);
+INSERT INTO SONGS VALUES(
+  66, "Face the Truth", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "A Sign of Hope", NULL);
+INSERT INTO SONGS VALUES(
+  67, "Noldor (Dead Winter Reigns)", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "The March through the Ice of Noldor, Many Died", NULL);
+INSERT INTO SONGS VALUES(
+  68, "Battle of Sudden Flame", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "Bardic Narration, Hope to the Elves", NULL);
+INSERT INTO SONGS VALUES(
+  69, "Time Stands Still (At the Iron Hill)", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "Fingolfin Challenges Morgoth", NULL);
+INSERT INTO SONGS VALUES(
+  70, "The Dark Elf", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "Introducing Eol,  Maeglin's Father", NULL);
+INSERT INTO SONGS VALUES(
+  71, "Thorn", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "The Tragic Life of Maeglin, Fall of Gondolin", NULL);
+INSERT INTO SONGS VALUES(
+72, "The Eldar", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "Finrod's Farewell to His People", NULL);
+INSERT INTO SONGS VALUES( 
+  73, "Nom the Wise", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "Beren's Narration", NULL);
+INSERT INTO SONGS VALUES(
+  74, "When Sorrow Sang", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "Beren in Dungeons of Tol-in-Gaurhoth", NULL);
+INSERT INTO SONGS VALUES(
+  75, "Out on the Water", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "Narration, Afterlife", NULL);
+INSERT INTO SONGS VALUES(
+  76, "The Steadfast", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "Morgoth's Narration", NULL);
+INSERT INTO SONGS VALUES(
+  77, "A Dark Passage", 5, "Nightfall in Middle Earth", 5, "Blind Guardian", "Captivity of Hurin, Morgoth's Narration", NULL);
+INSERT INTO SONGS VALUES(
+  78, "Final Chapter (Thus Ends...)",  5, "Nightfall in Middle Earth", 5, "Blind Guardian", "End of the 5th Battle, Destruction, Forlorn Hope", NULL);
+INSERT INTO SONGS VALUES(
+  79, "Valhall Awaits Me", 6, "With Oden On Our Side", 6, "Amon Amarth", "Battle, Afterlife, Glory, Death", NULL);
+INSERT INTO SONGS VALUES(
+  80, "Runes to My Memory", 6, "With Oden On Our Side", 6, "Amon Amarth", "Death, Burial, Rememberance", NULL);
+INSERT INTO SONGS VALUES(
+  81, "Asator", 6, "With Oden On Our Side", 6, "Amon Amarth", "Thor", NULL);
+INSERT INTO SONGS VALUES(
+  82, "Hermod's Ride to Hel - Loke's Treachery Part 1", 6, "With Oden On Our Side", 6, "Amon Amarth", "Balder's Death", NULL);
+INSERT INTO SONGS VALUES( 
+  83, "Gods of War Arise", 6, "With Oden On Our Side", 6, "Amon Amarth", "Blood, Battle, Victory", NULL);
+INSERT INTO SONGS VALUES(
+  84, "With Oden on Our Side", 6, "With Oden On Our Side", 6, "Amon Amarth", "Winter, Victory, Oden", NULL);
+INSERT INTO SONGS VALUES(
+  85, "Cry of the Black Birds", 6, "With Oden On Our Side", 6, "Amon Amarth", "Battle, Victory, Ravens, Oden", NULL);
+INSERT INTO SONGS VALUES(
+  86, "Under the Northern Star", 6, "With Oden On Our Side", 6, "Amon Amarth", "Ice, Winter, Darkness", NULL);
+INSERT INTO SONGS VALUES(
+  87, "Prediction of Warfare", 6, "With Oden On Our Side", 6, "Amon Amarth", "Invading the Irish", NULL); 
+
+
+INSERT INTO SONGS VALUES(
+  88, "Black Planet", 7, "First and Last and Always", 7, "Sisters of Mercy", "Darkness, Europe, Post Apocalyptia", NULL);
+INSERT INTO SONGS VALUES(
+  89, "Walk Away", 7, "First and Last and Always", 7, "Sisters of Mercy", "Rain, Parting Ways", NULL);
+INSERT INTO SONGS VALUES(
+  90, "No Time to Cry", 7, "First and Last and Always", 7, "Sisters of Mercy", "Fear, Religion", NULL);
+INSERT INTO SONGS VALUES(
+  91, "A Rock and a Hard Place", 7, "First and Last and Always", 7, "Sisters of Mercy", "Stuck Between Two Hard Choices", NULL);
+INSERT INTO SONGS VALUES(
+  92, "Marian", 7, "First and Last and Always", 7, "Sisters of Mercy", "Sea, Drowning, Metaphor, Pleading for Help", NULL);
+INSERT INTO SONGS VALUES(
+  93, "First and Last and Always", 7, "First and Last and Always", 7, "Sisters of Mercy", "Love, Regret, Time", NULL);
+INSERT INTO SONGS VALUES(
+  94, "Possession", 7, "First and Last and Always", 7, "Sisters of Mercy", "Possession, Everything Falling Apart", NULL);
+INSERT INTO SONGS VALUES(
+  95, "Nine While Nine", 7, "First and Last and Always", 7, "Sisters of Mercy", "The Past, Rememberance, Companionship", NULL);
+INSERT INTO SONGS VALUES(
+  96, "Amphetamine Logic", 7, "First and Last and Always", 7, "Sisters of Mercy", "Cuthroat World, Twisted Logic", NULL); 
+INSERT INTO SONGS VALUES(
+  97, "Some Kind of Stranger", 7, "First and Last and Always", 7, "Sisters of Mercy", "Love", NULL);
+INSERT INTO SONGS VALUES(
+   98, "(Dead But Dreaming)", 8, "Elizium", 8, "Fields of the Nephilim", NULL, NULL);
+INSERT INTO SONGS VALUES(
+  99, "For Her Light", 8, "Elizium", 8, "Fields of the Nephilim", "Loss, Waiting, Love, Dreams", NULL);
+INSERT INTO SONGS VALUES(
+  100, "At the Gates of Silent Memory", 8, "Elizium", 8, "Fields of the Nephilim", "Love, Duality, God, Heaven and Hell", NULL);
+INSERT INTO SONGS VALUES(
+  101, "(paradise regained)", 8, "Elizium", 8, "Fields of the Nephilim", "Love, Sheltering, Redemption", NULL);
+INSERT INTO SONGS VALUES(
+  102, "Submission", 8, "Elizium", 8, "Fields of the Nephilim", "Suffering, Ancient Gods, Affliction", NULL);
+INSERT INTO SONGS VALUES(
+  103, "Sumerland (What Dreams May Come)", 8, "Elizium", 8, "Fields of the Nephilim", "Temptation, Dreaming, Escape", NULL);
+  INSERT INTO SONGS VALUES(
+    104, "Wail of Sumer", 8, "Elizium", 8, "Fields of the Nephilim", "Escapism to Sumerland", NULL);
+INSERT INTO SONGS VALUES(
+  105, "And There Will Your Heart Be Also", 8, "Elizium", 8, "Fields of the Nephilim", "Suffering, Escapism", NULL);
+
+INSERT INTO SONGS VALUES(
+ 106, "Field of Sorrow",9, "Among Beggars and Thieves", 9, "Falconer", "Battlefield, Pillaging, Shipwreck", NULL);
+INSERT INTO SONGS VALUES(
+  107, "Man of the Hour", 9, "Among Beggars and Thieves", 9, "Falconer", "Termination of the Swedish Fleet", NULL);
+INSERT INTO SONGS VALUES(
+  108, "A Beggar Hero", 9, "Among Beggars and Thieves", 9, "Falconer", "Forgotten Hero", NULL);
+INSERT INTO SONGS VALUES(
+  109, "Vargaskall", 9, "Among Beggars and Thieves", 9, "Falconer", "Wolves", NULL);
+INSERT INTO SONGS VALUES(
+  110, "Carnival of Disgust", 9, "Among Beggars and Thieves", 9, "Falconer", "A Public Execution; Introspection of Human Nature", NULL);
+INSERT INTO SONGS VALUES(
+  111, "Mountain Men", 9, "Among Beggars and Thieves", 9, "Falconer", "Mountain Men Uprising; Overthrowing King", NULL);
+INSERT INTO SONGS VALUES(
+  112, "Viddernas Man", 9, "Among Beggars and Thieves", 9, "Falconer","A Wanderer; Poor Adventurer", NULL);
+INSERT INTO SONGS VALUES(
+  113, "Pale Light of the Silver Moon", 9, "Among Beggars and Thieves", 9, "Falconer", "The Night; What Happens Under the Moonlight", NULL);
+INSERT INTO SONGS VALUES(
+  114, "Boiling Led", 9, "Among Beggars and Thieves", 9, "Falconer", "Treachery, Assassination", NULL);
+INSERT INTO SONGS VALUES(
+  115, "Skula, Skorpa, Skalk", 9, "Among Beggars and Thieves", 9, "Falconer", "Famine, Dark Age, Sacrifice, Valhalla", NULL);
+INSERT INTO SONGS VALUES(
+  116, "Dreams and Pyres", 9, "Among Beggars and Thieves", 9, "Falconer", "Christianity, Persecution, Witchhunt", NULL);
+
+
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+  1, "Ratajczyk", "Peter", "Peter Steele", 1, "Vocalist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+  2, "Hickey", "Kenneth", "Kenny Hickey", 1, "Guitarist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+  3, "Silver", "Josh", NULL, 1, "Keyboards");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+  4, "Kelly", "Johnny", NULL, 1, "Drummer");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+  5, "Stanne", "Mikael", NULL, 2, "Vocalist, Guitarist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+  6, "Sundin", "Niklas", NULL, 2, "Guitarist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+  7, "Jivarp", "Anders", NULL, 2, "Drummer");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+  8, "Brandstrom", "Martin", NULL, 2, "Keyboards");
+
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+9, "Glanzmann", "Christian", "Chrigel Glanzmann", 3, "Vocalist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+10, "Brem", "Kay", NULL, 3, "Bass"); 
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+11, "Salzmann", "Rafael", NULL, 3, "Guitarist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+12, "Sisti", "Matteo", NULL, 3, "Bagpipes, Whistles, Guitarist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+13, "Akerfeldt", "Mikael",NULL, 4, "Vocalist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+14, "Mendez", "Martin", NULL, 4, "Bass");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+15, "Axenrot", "Martin", "Axe", 4, "Drummer");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+16, "Akesson", "Fredrik", NULL, 4, "Guitarist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+17, "Svalberg", "Joakim", NULL, 4, "Keyboards");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+18, "Kursch", "Hansi", NULL, 5, "Vocalist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+19, "Olbrich", "Andre", NULL, 5, "Guitarist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+20, "Siepen", "Marcus", NULL, 5, "Guitarist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+21, "Ehmke", "Frederik", NULL, 5, "Drummer");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+22, "Hegg", "Johan", NULL, 6, "Vocalist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+23, "Lundstrom", "Tedd", NULL, 6, "Bass");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+24, "Mikkonen", "Olavi", NULL, 6, "Guitarist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+25, "Soderberg", "Johan", NULL, 6, "Guitarist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+26, "Taylor", "Andrew", "Andrew Eldritch", 7, "Vocalist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+27, "Catalyst", "Chris", "Robochrist", 7, "Guitarist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+28, "Christo", "Ben", NULL, 7, "Guitarist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+29, "McCoy", "Carl", NULL, 8, "Vocalist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+30, "King", "Gavin", NULL, 8, "Guitarist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+31, "James", "Andy", NULL, 8, "Guitarist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+32, "Pettit", "Tony", NULL, 8, "Bass");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+33, "Newell", "Lee", NULL, 8, "Drummer");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+34, "Blad", "Mathias", NULL, 9, "Vocalist"); 
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+35, "Weinerhall", "Stefan", NULL, 9, "Guitarist");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+36, "Larsson", "Karsten", NULL, 9, "Drummer");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+37, "Linhardt", "Magnus", NULL, 9, "Bass");
+INSERT INTO INDIVIDUAL_ARTIST VALUES(
+38, "Hedlund", "Jimmy", NULL, 9, "Guitarist");
+
+
+INSERT INTO BAND_ALBUM VALUES(
+  1, 1);
+INSERT INTO BAND_ALBUM VALUES(
+  2, 2);
+INSERT INTO BAND_ALBUM VALUES(
+  2, 10);
+INSERT INTO BAND_ALBUM VALUES(
+  3,3);
+INSERT INTO BAND_ALBUM VALUES(
+  4,4);
+INSERT INTO BAND_ALBUM VALUES(
+  5,5);
+INSERT INTO BAND_ALBUM VALUES(
+  6,6);
+  INSERT INTO BAND_ALBUM VALUES(
+    7,7);
+INSERT INTO BAND_ALBUM VALUES(
+  8,8);
+INSERT INTO BAND_ALBUM VALUES(
+  9,9);
+
+INSERT INTO ALBUM_SONGS VALUES(
+  1, 2);
+INSERT INTO ALBUM_SONGS VALUES(
+  2, 2);
+INSERT INTO ALBUM_SONGS VALUES(
+  3,2);
+INSERT INTO ALBUM_SONGS VALUES(
+  4, 2);
+INSERT INTO ALBUM_SONGS VALUES(
+  5, 2);
+INSERT INTO ALBUM_SONGS VALUES(
+  6, 2);
+INSERT INTO ALBUM_SONGS VALUES(
+  7,2);
+INSERT INTO ALBUM_SONGS VALUES(
+  8,2);
+INSERT INTO ALBUM_SONGS VALUES(
+  9, 2);
+INSERT INTO ALBUM_SONGS VALUES(
+  10, 2); 
+INSERT INTO ALBUM_SONGS VALUES(
+  11, 1); 
+INSERT INTO ALBUM_SONGS VALUES(
+12,1);
+INSERT INTO ALBUM_SONGS VALUES(
+13,1);
+INSERT INTO ALBUM_SONGS VALUES(
+14,1);
+INSERT INTO ALBUM_SONGS VALUES(
+15, 1);
+INSERT INTO ALBUM_SONGS VALUES(
+16, 1);
+INSERT INTO ALBUM_SONGS VALUES(
+17,1);
+INSERT INTO ALBUM_SONGS VALUES(
+ 18,1);
+INSERT INTO ALBUM_SONGS VALUES(
+19, 1);
+INSERT INTO ALBUM_SONGS VALUES(
+20, 1);
+INSERT INTO ALBUM_SONGS VALUES(
+21, 1);
+INSERT INTO ALBUM_SONGS VALUES(
+22, 1);
+INSERT INTO ALBUM_SONGS VALUES(
+23, 1);
+INSERT INTO ALBUM_SONGS VALUES(
+ 24, 1);
+INSERT INTO ALBUM_SONGS VALUES(
+25, 1);
+INSERT INTO ALBUM_SONGS VALUES(
+  26, 10);
+INSERT INTO ALBUM_SONGS VALUES(
+  27,  10);
+INSERT INTO ALBUM_SONGS VALUES(
+  28,10);
+INSERT INTO ALBUM_SONGS VALUES(
+29, 10);
+INSERT INTO ALBUM_SONGS VALUES(
+30, 10); 
+INSERT INTO ALBUM_SONGS VALUES(
+31, 10);
+INSERT INTO ALBUM_SONGS VALUES(
+ 32, 10);
+INSERT INTO ALBUM_SONGS VALUES(
+  33, 10);
+INSERT INTO ALBUM_SONGS VALUES(
+  34, 10);
+INSERT INTO ALBUM_SONGS VALUES(
+  35, 10);
+INSERT INTO ALBUM_SONGS VALUES(
+  36, 3);
+INSERT INTO ALBUM_SONGS VALUES(
+  37, 3);
+INSERT INTO ALBUM_SONGS VALUES(
+  38, 3);
+INSERT INTO ALBUM_SONGS VALUES(
+  39, 3);
+INSERT INTO ALBUM_SONGS VALUES(
+  40, 3);
+INSERT INTO ALBUM_SONGS VALUES(
+  41, 3);
+INSERT INTO ALBUM_SONGS VALUES(
+  42, 3);
+INSERT INTO ALBUM_SONGS VALUES(
+  43, 3);
+INSERT INTO ALBUM_SONGS VALUES(
+  44, 3);
+INSERT INTO ALBUM_SONGS VALUES(
+  45, 3);
+INSERT INTO ALBUM_SONGS VALUES(
+  46, 3);
+INSERT INTO ALBUM_SONGS VALUES(
+  47, 3);
+INSERT INTO ALBUM_SONGS VALUES(
+  48, 3); 
+INSERT INTO ALBUM_SONGS VALUES(
+  49, 4);
+INSERT INTO ALBUM_SONGS VALUES(
+  50, 4);
+INSERT INTO ALBUM_SONGS VALUES(
+  51, 4);
+INSERT INTO ALBUM_SONGS VALUES(
+  52, 4);
+INSERT INTO ALBUM_SONGS VALUES(
+  53, 4);
+INSERT INTO ALBUM_SONGS VALUES(
+  54, 4);
+INSERT INTO ALBUM_SONGS VALUES(
+  55, 4);
+INSERT INTO ALBUM_SONGS VALUES(
+  56, 4);
+INSERT INTO ALBUM_SONGS VALUES(
+  57, 5); 
+INSERT INTO ALBUM_SONGS VALUES(
+  58, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  59, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  60, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  61, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  62, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  63, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  64, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  65, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  66, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  67,  5);
+INSERT INTO ALBUM_SONGS VALUES(
+  68, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  69, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  70, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  71, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  72, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  73, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  74, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  75, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  76, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  77, 5);
+INSERT INTO ALBUM_SONGS VALUES(
+  78, 5); 
+INSERT INTO ALBUM_SONGS VALUES(
+  79, 6);
+INSERT INTO ALBUM_SONGS VALUES(
+  80, 6);
+INSERT INTO ALBUM_SONGS VALUES(
+  81, 6);
+INSERT INTO ALBUM_SONGS VALUES(
+  82, 6);
+INSERT INTO ALBUM_SONGS VALUES(
+  83, 6);
+INSERT INTO ALBUM_SONGS VALUES(
+  84, 6);
+INSERT INTO ALBUM_SONGS VALUES(
+  85, 6);
+INSERT INTO ALBUM_SONGS VALUES(
+  86, 6);
+INSERT INTO ALBUM_SONGS VALUES(
+  87, 6); 
+INSERT INTO ALBUM_SONGS VALUES(
+  88, 7);
+INSERT INTO ALBUM_SONGS VALUES(
+  89, 7);
+INSERT INTO ALBUM_SONGS VALUES(
+  90, 7);
+INSERT INTO ALBUM_SONGS VALUES(
+ 91, 7);
+INSERT INTO ALBUM_SONGS VALUES(
+  92, 7);
+INSERT INTO ALBUM_SONGS VALUES(
+  93, 7);
+INSERT INTO ALBUM_SONGS VALUES(
+  94, 7);
+INSERT INTO ALBUM_SONGS VALUES(
+  95, 7);
+INSERT INTO ALBUM_SONGS VALUES(
+  96, 7);
+INSERT INTO ALBUM_SONGS VALUES(
+  97, 7); 
+
+INSERT INTO ALBUM_SONGS VALUES(
+  98, 8);
+INSERT INTO ALBUM_SONGS VALUES(
+ 99, 8);
+INSERT INTO ALBUM_SONGS VALUES(
+  100, 8);
+INSERT INTO ALBUM_SONGS VALUES(
+  101, 8);
+INSERT INTO ALBUM_SONGS VALUES(
+  102, 8);
+INSERT INTO ALBUM_SONGS VALUES(
+  103, 8);
+INSERT INTO ALBUM_SONGS VALUES(
+  104, 8);
+INSERT INTO ALBUM_SONGS VALUES(
+  105, 8);
+INSERT INTO ALBUM_SONGS VALUES(
+  106, 9);
+INSERT INTO ALBUM_SONGS VALUES(
+  107, 9);
+INSERT INTO ALBUM_SONGS VALUES(
+  108, 9);
+INSERT INTO ALBUM_SONGS VALUES(
+  109, 9);
+INSERT INTO ALBUM_SONGS VALUES(
+  110, 9);
+INSERT INTO ALBUM_SONGS VALUES(
+  111, 9);
+INSERT INTO ALBUM_SONGS VALUES(
+  112, 9);
+INSERT INTO ALBUM_SONGS VALUES(
+  113, 9);
+INSERT INTO ALBUM_SONGS VALUES(
+  114, 9);
+INSERT INTO ALBUM_SONGS VALUES(
+  115, 9);
+INSERT INTO ALBUM_SONGS VALUES(
+  116, 9);
